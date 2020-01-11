@@ -41,7 +41,7 @@ spring:
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
         #url: jdbc:mysql://localhost:3306/jiuzhangquanzhanke?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
-        url: jdbc:mysql://jiuzhangrds.cvnq6x6f4vm7.us-east-2.rds.amazonaws.com:3306/jiuzhangquanzhanke?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+        url: jdbc:mysql://jiuzhangrds.cvnq6x6f4vm7.us-east-2.rds.amazonaws.com/jiuzhangquanzhanke?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
         username: jiuzhanghanli
         password: emerson761
         hikari:
