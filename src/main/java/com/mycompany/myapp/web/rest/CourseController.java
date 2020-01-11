@@ -23,13 +23,13 @@ public class CourseController {
 
     @GetMapping(path = "/api/course/findAllCourses", produces = "application/json")
     public HttpEntity<List<CourseDto>> findAllCourses(){
-        
+
         List<CourseDto> allCourses = courseService.findAllCourses();
 
         return new ResponseEntity<>(allCourses, HttpStatus.OK);
     }
 
-    @GetMapping(path = "/api/course/findAllCoursesDto", produces = "application/json")
+    @GetMapping(path = "api/course/findAllCoursesDto", produces = "application/json")
     public HttpEntity<List<CourseDto>> findAllCoursesDto(){
         List<CourseDto> allCourses = courseService.findAllCoursesDtoFromDB();
 
